@@ -1,4 +1,4 @@
-itrationCount = int(input('count to: ')) + 2
+itrationCount = int(input('count to: '))
 numCount = 1
 
 
@@ -7,7 +7,7 @@ def iterate():
     global isOdd
     global isEven
     isOdd = str(numCount) + ' is odd\n'
-    isEven = str(numCount + 2) + ' is even'
+    isEven = str(numCount + 1) + ' is even'
     print(isOdd + isEven)
     numCount = numCount + 2
 
